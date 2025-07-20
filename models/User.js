@@ -99,6 +99,9 @@ const userSchema = new mongoose.Schema(
 
 // Compare password method
 userSchema.methods.comparePassword = async function (candidatePassword) {
+  if (!candidatePassword || !this.password) {
+    throw new Error("Missing password for comparison");
+  }
   return bcrypt.compare(candidatePassword, this.password);
 };
 
