@@ -29,11 +29,11 @@ This is the backend REST API for the Meal Master application. It powers the user
 #├── models/ # Mongoose schemas
 #├── routes/ # API route handlers
 #├── node_modules/
--├── .env # Environment variables
--├── .gitignore
--├── package.json
--├── seedData.js # Initial data seeding
--└── server.js # Main entry point
+#├── .env # Environment variables
+#├── .gitignore
+#├── package.json
+#├── seedData.js # Initial data seeding
+#└── server.js # Main entry point
 
 
 ---
@@ -89,7 +89,7 @@ name, email, password, role, resetToken
 name, description, nutrition (calories, protein, etc.), prepTime, cookTime, image
 
 ### MealPlan
-user, date, mealType, recipe, servings
+user, day, mealType, recipe, servings
 
 ---
 ## 🧪 Testing
