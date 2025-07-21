@@ -3,14 +3,17 @@
 ## Introduction
 **Meal Master** is a full-stack application designed to help users plan, track, and analyze their daily meals. With real-time nutrition data, user authentication, and a recipe planner, it streamlines the entire meal management experience. Built using **React.js** for the frontend and **Node.js + Express + MongoDB** for the backend, it provides secure and efficient meal tracking functionality for health-conscious users.
 
+---
 ## Project Type
 **Fullstack**
 
+---
 ## Deployed App
 - **Frontend**: https://meal-masterr.netlify.app/
 - **Backend**: https://meal-master-backend-4433.onrender.com/
 - **Database**: MongoDB Atlas
 
+---
 ## Directory Structure
 Meal_Master_App/
 ├── backend/ # Express + MongoDB backend API
@@ -29,11 +32,11 @@ Meal_Master_App/
 │ └── vite.config.js
 ├── README.md # This file
 
-
+---
 ## 🎥 Video Walkthrough of the Project
 🔗 [Project Demo (1-3 mins)](https://your-video-link.com)
 
-
+---
 ## ✨ Features
 
 - User authentication (Email/Password + Google OAuth)
@@ -44,6 +47,7 @@ Meal_Master_App/
 - Responsive UI with mobile-friendly navigation
 - Password reset and protected routes
 
+---
 ## 💡 Design Decisions & Assumptions
 
 - Used JWT token based authentication.
@@ -52,6 +56,7 @@ Meal_Master_App/
 - Lightweight UI libraries for performance on low-end devices
 - Meal type classification based on time of day
 
+---
 ## 🚀 Installation & Getting Started
 
 ### Prerequisites
@@ -90,6 +95,7 @@ npm run dev
 VITE_API_BASE_URL="https://meal-master-backend-4433.onrender.com/api"  #(Your Backend URL).
 ```
 
+---
 ## 📘 Usage
 Navigate to the homepage: Meal Master App
 
@@ -105,34 +111,37 @@ View Nutritional Info on Nurtition
 
 Use dashboard stats to monitor progress
 
+---
 ## 🔐 Credentials
 
 | Role  | Email                      | Password |
 | ----- | -------------------------- | -------- |
 | User  | omkar@gmail.com            | 123456   |
 
-
+---
 ## 🛠️ Technology Stack
-### Frontend
+### ⚙️ Frontend  
+- **React.js** with Vite  
+- **Tailwind CSS** for styling  
+- **React Router v6**   
+- **Axios** for HTTP requests  
+- **Netlify** for deployment
 
-React.js + Vite
+### ⚙Backend 
+- **Node.js** + **Express.js**  
+- **MongoDB Atlas** + Mongoose ODM  
+- **JWT Authentication**  
+- **Nodemailer** (for password reset)  
+- **CORS**
+- **Render** (for deployment)
 
-Tailwind CSS
+---
+## 📬 Contact
+For bugs or feature requests, open an issue or contact the author.
 
-Axios
+---
+## 🤝 Contributors
+Abhishek Bochare
 
-### Backend
+---
 
-Node.js
-
-Express.js
-
-MongoDB Atlas
-
-Mongoose
-
-JSON Web Tokens
-
-Bcrypt
-
-CORS 
