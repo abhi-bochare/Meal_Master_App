@@ -34,7 +34,7 @@ Meal_Master_App/
 
 ---
 ## 🎥 Video Walkthrough of the Project
-🔗 [Project Demo (1-3 mins)](https://your-video-link.com)
+🔗 [Project Demo (4-6 mins)](https://youtu.be/81snoS5ESns)
 
 ---
 ## ✨ Features
