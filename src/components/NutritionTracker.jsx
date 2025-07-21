@@ -90,7 +90,7 @@ const NutritionTracker = () => {
 
   // Convert weeklyNutrition to Recharts data
   const weeklyChartData = weeklyNutrition.map((day) => ({
-    name: day.day.slice(0, 3), // "Mon", "Tue", etc.
+    name: day.day.slice(0, 3),
     calories: Math.round(day.nutrition.calories),
   }));
 
@@ -104,7 +104,7 @@ const NutritionTracker = () => {
   // Streak: number of consecutive days with calorie entries
   const streak = weeklyNutrition.reduceRight((count, day, idx, arr) => {
     if (day.nutrition.calories > 0) return count + 1;
-    return count > 0 ? count : 0; // stop counting if a zero-day found before streak
+    return count > 0 ? count : 0;
   }, 0);
 
   // Goal achievement: days where calories >= 90% of goal

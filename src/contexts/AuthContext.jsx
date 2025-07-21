@@ -1,5 +1,5 @@
 import React, { createContext, useContext, useState, useEffect } from "react";
-import { get, post, put } from "../utils/api"; // This should wrap axios with auth headers
+import { get, post, put } from "../utils/api";
 import axios from "axios";
 
 const AuthContext = createContext();

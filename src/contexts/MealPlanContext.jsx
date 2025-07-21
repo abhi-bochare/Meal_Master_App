@@ -54,7 +54,7 @@ export const MealPlanProvider = ({ children }) => {
       setMealPlan(data);
     } catch (error) {
       console.error("Error fetching meal plan:", error);
-      setMealPlan([]); // fallback to empty array
+      setMealPlan([]);
     }
   };
 
