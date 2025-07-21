@@ -15,8 +15,8 @@ const PORT = process.env.PORT || 3000;
 // Middleware
 app.use(
   cors({
-    origin: "http://localhost:5173", // Allow only your frontend origin
-    credentials: true, // Allow cookies to be sent
+    origin: ["http://localhost:5173", "https://meal-masterr.netlify.app"],
+    credentials: true,
   })
 );
 app.use(express.json());
