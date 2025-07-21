@@ -48,8 +48,8 @@ function AppRoutes() {
         </Routes>
       ) : (
         <>
-          <Navbar />
           <main className="pt-16 bg-gray-50 min-h-screen">
+            <Navbar />
             <Routes>
               <Route path="/" element={<Dashboard />} />
               <Route path="/dashboard" element={<Dashboard />} />
