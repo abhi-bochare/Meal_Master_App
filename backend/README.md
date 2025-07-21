@@ -48,7 +48,7 @@ This is the backend REST API for the Meal Master application. It powers the user
 
 ### 🛠 Installation  
 ```bash
-git clone https://github.com/your-username/meal-master-backend.git
+git clone https://github.com/abhi-bochare/Meal_Master_Backend.git
 cd meal-master-backend
 npm install
 ```
