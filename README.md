@@ -52,7 +52,7 @@ This is the frontend of the **Meal Master** application. It provides an interact
 
 ### 🛠 Installation  
 ```bash
-git clone https://github.com/your-username/meal-master-app-frontend.git
+git clone [https://github.com/your-username/meal-master-app-frontend.git](https://github.com/abhi-bochare/Meal_Master_Frontend)
 cd meal-master-app-frontend
 npm install
 ```
