@@ -67,7 +67,7 @@ Meal_Master_App/
 
 ### Clone the Repository
 ```bash
-git clone https://github.com/your-username/Meal_Master_App.git
+git clone https://github.com/abhi-bochare/Meal_Master_App.git
 cd Meal_Master_App
 ```
 ### Backend Setup
